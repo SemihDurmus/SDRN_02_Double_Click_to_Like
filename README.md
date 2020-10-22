@@ -1,6 +1,3 @@
-# SDRN_02_Double_Click_to_Like
-
-
 
 <h1 align="center">SDRN_02_Double_Click_to_Like</h1>
 
@@ -42,36 +39,31 @@ Introduce your projects by taking a screenshot or a gif.
 
 ## Features
 
-This application/site was created as a submission to a [Clarusway](https://clarusway.com) Project/Challenges/etc. 
+- User can scroll down and up to see a list of images, titles and descriptions which are pulled from a source file in json format.
+- When the user double taps on the image a heart-shape pops-up on the image with an animation. (Duration 400ms)
+- After double click the pale colored heart emoji in line with the titile turns into a vividly colored one, and the status changes to "liked"
+- When the user double clicks on a image with a status of "liked":
+  - heart animation pops up on the image again
+  - vividly colored heart emoji turns back to pale
+  - the status turns back to "not_liked"
 
 ## How To Use
 
-<!-- This is an example, please update according to your application -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To use this application, "double click" react-native component should be installed before running the program. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
 
-# Install dependencies
-$ npm install
+$ npm install --save react-native-double-click
 
-# Run the app
-$ npm start
 ```
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-- [Node.js](https://nodejs.org/)
-- [Marked](https://github.com/chjj/marked)
+- [RN double click](https://www.npmjs.com/package/react-native-double-click)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-
-- Linkedin [@your-linkedin](https://{linkedin.com/your-username})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [SemihDurmus](https://github.com/SemihDurmus)
+- Linkedin [@Semih Durmus](https://www.linkedin.com/in/semih-durmus-0548751b7/)
