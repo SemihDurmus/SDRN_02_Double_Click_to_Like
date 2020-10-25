@@ -26,7 +26,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+<img src="src/assets/doubleClick.gif" height="500">
 
 ### Built With
 
@@ -38,7 +38,7 @@
 ## Features
 
 - User can scroll down and up to see a list of images, titles and descriptions which are pulled from a source file in json format.
-- When the user double taps on the image a heart-shape pops-up on the image with an animation. (Duration 400ms)
+- When the user double taps on the image a heart-shape pops-up on the image with an animation. (Duration 600ms)
 - After double click the pale colored heart emoji in line with the titile turns into a vividly colored one, and the status changes to "liked"
 - When the user double clicks on a image with a status of "liked":
   - heart animation pops up on the image again
